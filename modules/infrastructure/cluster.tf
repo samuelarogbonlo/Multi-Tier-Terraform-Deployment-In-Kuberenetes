@@ -1,4 +1,4 @@
-# TODO: create code to create a kind cluster using Terraform,
+# create code to create a kind cluster using Terraform,
 # with the following equivalent configuration:
 # (see providers.tf for the provider information and settings)
 
@@ -30,14 +30,15 @@ resource "kind_cluster" "default" {
 
     node {
       role = "control-plane"
-      extra_port_mappings {
-            container_port = 80
-            host_port      = 8086
-          }
     }
 
     node {
       role = "worker"
+      extra_port_mappings {
+            container_port = 80
+            host_port      = 8086
+            listen_address = "0.0.0.0"
+          }
     }
   }
 }

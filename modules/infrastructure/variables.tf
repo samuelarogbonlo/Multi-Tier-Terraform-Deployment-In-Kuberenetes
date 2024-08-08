@@ -1,4 +1,4 @@
-# TODO: please add the required module variables here
+
 variable "cluster_name" {
   description = "The name of the Kubernetes cluster"
   type        = string
