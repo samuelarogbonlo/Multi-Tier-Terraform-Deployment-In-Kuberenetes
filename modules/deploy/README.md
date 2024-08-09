@@ -26,9 +26,8 @@ This Terraform module automates the deployment of an Nginx Ingress controller an
 
 - **`variables.tf`**: Defines the input variables used by the module, including configuration for both the Nginx Ingress and the S3 app.
 
-
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request to propose changes.
+# Maintainers
+[@samuelarogbonlo](https://github.com/samuelarogbonlo)
 
 ## License
 This project is licensed under the MIT License.
