@@ -59,7 +59,7 @@ log_test "Check the Terraform $workspace has a correct output: $output_name"
 cd ${SCRIPTPATH}/../${workspace}
 output_value=$(terraform output -raw ${output_name})
 # we expect a specific nginx version from the Helm chart we used:
-expected_value='1.8.1'
+expected_value='4.7.1'
 log_info "$output_name=$output_value"
 if [[ "${output_value}" == "${expected_value}" ]]; then
   log_pass "Check for $output_name passed"

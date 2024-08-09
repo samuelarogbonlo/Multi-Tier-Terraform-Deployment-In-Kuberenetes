@@ -12,5 +12,4 @@ terraform {
   }
 }
 
-provider "kind" {}
-
+# provider "kind" {}
