@@ -10,7 +10,7 @@ This Terraform module automates the deployment of an Nginx Ingress controller an
 - Helm installed on your local machine
 
 > **Note**
-> If you are using Mac M1 Chip then follow the details (here)[https://discuss.hashicorp.com/t/template-v2-2-0-does-not-have-a-package-available-mac-m1/35099/39#:~:text=Please%20follow%20the%20steps%20given%20below,to%20%40AyushKumar55%20for%20the%20help.] to avoid compatibility issues
+> If you are using Mac M1 Chip then follow the details [here](https://discuss.hashicorp.com/t/template-v2-2-0-does-not-have-a-package-available-mac-m1/35099/39#:~:text=Please%20follow%20the%20steps%20given%20below,to%20%40AyushKumar55%20for%20the%20help.) to avoid compatibility issues
 
 ## Files and Structure
 
