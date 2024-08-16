@@ -3,7 +3,7 @@
 SH := /bin/bash
 
 .EXPORT_ALL_VARIABLES:
-CAMUNDA_CHALLENGE_LOG_FILE := $(if $(CAMUNDA_CHALLENGE_LOG_FILE),$(CAMUNDA_CHALLENGE_LOG_FILE),$(shell mktemp))
+LOG_FILE := $(if $(LOG_FILE),$(LOG_FILE),$(shell mktemp))
 
 # HELP
 # This will output the help for each task
@@ -16,7 +16,7 @@ help: ## Display this help
 .DEFAULT_GOAL := help
 
 start-log:
-	@echo "Saving logfile to: $(CAMUNDA_CHALLENGE_LOG_FILE)"
+	@echo "Saving logfile to: $(LOG_FILE)"
 
 end-log:
 	./scripts/parselog.sh

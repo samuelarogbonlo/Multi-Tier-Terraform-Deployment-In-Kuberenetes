@@ -1,9 +1,3 @@
-#!/bin/bash
-
-# WARNING: You don't need to edit this file!
-
-# Checks that the S3 app is available and has the right status
-# Checks that Terraform workspaces have the expected outputs
 
 SCRIPT=`realpath $0`
 SCRIPTPATH=`dirname $SCRIPT`

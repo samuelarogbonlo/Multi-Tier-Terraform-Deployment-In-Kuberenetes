@@ -1,6 +1,3 @@
-#!/bin/bash
-
-# WARNING: You don't need to edit this file!
 
 # This script checks that the following tools are installed:
 # - Docker
@@ -49,7 +46,7 @@ check_command "curl -V" && log_info "$(curl --version)" || mark_fail
 check_command "jq --version" && log_info "$(jq --version)" || mark_fail
 
 log_test "Checking that Localstack Docker container is running"
-CONTAINER_NAME="camunda_localstack"
+CONTAINER_NAME="da_localstack"
 CONTAINER_ID=$(docker ps -aqf "name=$CONTAINER_NAME")
 if [[ "$(docker inspect -f {{.State.Health.Status}} $CONTAINER_ID)" == "healthy" ]] ; then
   log_pass "Localstack Docker container is running"

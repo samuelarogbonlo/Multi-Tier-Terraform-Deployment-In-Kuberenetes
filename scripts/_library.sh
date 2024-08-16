@@ -1,6 +1,3 @@
-#!/bin/bash
-
-# WARNING: You don't need to edit this file!
 
 BOLD='\033[1m'
 CYAN='\033[1;36m'
@@ -25,8 +22,8 @@ function yes_no() {
 function log_normal() {
   line="[$(date)] ${1}"
   echo -e "$line"
-  if [[ -n "${CAMUNDA_CHALLENGE_LOG_FILE:-}" ]]; then
-    echo "$line" >>"${CAMUNDA_CHALLENGE_LOG_FILE}"
+  if [[ -n "${LOG_FILE:-}" ]]; then
+    echo "$line" >>"${LOG_FILE}"
   fi
 }
 

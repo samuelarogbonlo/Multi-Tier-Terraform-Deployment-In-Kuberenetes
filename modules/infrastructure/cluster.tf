@@ -1,6 +1,3 @@
-# create code to create a kind cluster using Terraform,
-# with the following equivalent configuration:
-# (see providers.tf for the provider information and settings)
 
 # Important: make sure nothing runs on your port 8086 locally
 # (otherwise the kind cluster's port binding won't work)

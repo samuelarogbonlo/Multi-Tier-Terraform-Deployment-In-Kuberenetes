@@ -1,6 +1,4 @@
-#!/bin/bash
 
-# WARNING: You don't need to edit this file!
 
 # Creates the resources in the workspaces
 

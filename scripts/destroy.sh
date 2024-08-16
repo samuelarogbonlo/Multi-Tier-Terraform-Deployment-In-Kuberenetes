@@ -1,8 +1,3 @@
-#!/bin/bash
-
-# WARNING: You don't need to edit this file!
-
-# Deletes the resources in the workspaces
 
 SCRIPT=`realpath $0`
 SCRIPTPATH=`dirname $SCRIPT`

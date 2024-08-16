@@ -1,5 +1,3 @@
-# please add the required module variables here
-# variable "ingress_class_name" {
 
 variable "nginx_ingress" {
   description = "Configuration for the nginx ingress controller"

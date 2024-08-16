@@ -3,7 +3,7 @@
 set -e
 
 DOCKER_IMAGE="localstack/localstack:2.3"
-CONTAINER_NAME="camunda_localstack"
+CONTAINER_NAME="da_localstack"
 
 if [[ "$1" == "start" ]]; then
     echo "Pulling docker image $DOCKER_IMAGE..."

@@ -1,4 +1,4 @@
-# Terraform Module  Kind K8S Cluster And An S3 Bucket In Localstack
+# Terraform Module Kind K8S Cluster And An S3 Bucket In Localstack
 
 This repository contains Terraform configurations for setting up and managing infrastructure.
 

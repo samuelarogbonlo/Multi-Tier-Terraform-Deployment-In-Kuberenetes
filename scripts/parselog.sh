@@ -1,6 +1,3 @@
-#!/bin/bash
-
-# WARNING: You don't need to edit this file!
 
 SCRIPT=`realpath $0`
 SCRIPTPATH=`dirname $SCRIPT`
@@ -37,4 +34,4 @@ parse_log() {
   fi
 }
 
-parse_log "$CAMUNDA_CHALLENGE_LOG_FILE"
+parse_log "$LOG_FILE"
