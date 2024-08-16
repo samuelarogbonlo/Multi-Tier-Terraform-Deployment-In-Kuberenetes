@@ -1,10 +1,8 @@
 
-# Check 02-app-deploy/main.tf for all the details of the app.
+# Check app-deployment/main.tf for all the details of the app.
 
 # The app should be accessible from localhost via an Ingress on localhost:8086/s3-app
 # The app is stateless. No TLS is required (plain HTTP)
-
-# Hint: pay attention to ingressClassName value of the Ingress object for the solution to work
 
 provider "kubernetes" {
   config_path = "~/.kube/config"

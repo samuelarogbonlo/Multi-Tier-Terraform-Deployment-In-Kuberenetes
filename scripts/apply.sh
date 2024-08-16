@@ -21,8 +21,8 @@ function apply_workspace() {
 workspace="$1"
 
 if [ -z "$workspace" ]; then
-  apply_workspace "01-cluster-create"
-  apply_workspace "02-app-deploy"
+  apply_workspace "cluster
+  apply_workspace "app-deployment"
 else
   apply_workspace "$workspace"
 fi

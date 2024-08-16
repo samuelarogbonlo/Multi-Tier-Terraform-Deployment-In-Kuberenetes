@@ -1,6 +1,6 @@
 # Terraform Module Kind K8S Cluster And An S3 Bucket In Localstack
 
-![Components Infrastructure](image-1.png)
+![Components Infrastructure](https://github.com/user-attachments/assets/1eced4e7-f616-487e-9b9b-1c52070b42fc)
 
 This repository contains Terraform configurations for setting up and managing infrastructure.
 

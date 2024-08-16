@@ -18,8 +18,8 @@ function destroy() {
 DELETE=$(yes_no "Do you want to delete all the Terraform resources (kind cluster and the resources in it)?")
 
 if [[ "$DELETE" == "y" ]]; then
-  destroy "02-app-deploy"
-  destroy "01-cluster-create"
+  destroy "app-deployment"
+  destroy "cluster"
 else
   log_info "Skipping workspaces deletion"
 fi

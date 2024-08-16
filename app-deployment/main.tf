@@ -9,7 +9,7 @@ locals {
   ingress_class_name   = "da-nginx" #ingress class name to be used by the app
   bucket_name          = "test-bucket"
   object_key           = "test-file"
-  object_contents_file = "../01-cluster-create/bucket-file.json"
+  object_contents_file = "../cluster/bucket-file.json"
 }
 
 module "deploy" {

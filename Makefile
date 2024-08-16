@@ -21,11 +21,11 @@ start-log:
 end-log:
 	./scripts/parselog.sh
 
-apply-cluster:  ## Apply the 01-cluster-create Terraform workspace
-	./scripts/apply.sh 01-cluster-create
+apply-cluster:  ## Apply the cluster Terraform workspace
+	./scripts/apply.sh cluster
 
-apply-deploy:  ## Apply the 02-app-deploy Terraform workspace
-	./scripts/apply.sh 02-app-deploy
+apply-deploy:  ## Apply the app-deployment Terraform workspace
+	./scripts/apply.sh app-deployment
 
 apply: apply-cluster apply-deploy ## Apply both Terraform workspaces, one after another
 

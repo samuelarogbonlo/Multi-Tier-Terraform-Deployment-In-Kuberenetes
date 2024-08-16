@@ -30,7 +30,7 @@ fi
 # Checking the outputs of the Terraform workspaces
 
 output_name="cluster_endpoint"
-workspace="01-cluster-create"
+workspace="cluster"
 log_test "Check the Terraform $workspace has a correct output: $output_name"
 cd ${SCRIPTPATH}/../${workspace}
 output_value=$(terraform output -raw ${output_name})
@@ -48,7 +48,7 @@ else
 fi
 
 output_name="nginx_ingress_app_version"
-workspace="02-app-deploy"
+workspace="app-deployment"
 log_test "Check the Terraform $workspace has a correct output: $output_name"
 cd ${SCRIPTPATH}/../${workspace}
 output_value=$(terraform output -raw ${output_name})

@@ -25,8 +25,8 @@ In order to run the infrastructure, you need to refer to the README.md file in t
 The main entrypoint to invoke different commands from the test framework:
 
 - **make apply**: Apply both Terraform workspaces, one after another
-- **make apply-cluster**: Apply the 01-cluster-create Terraform workspace
-- **make apply-deploy**: Apply the 02-app-deploy Terraform workspace
+- **make apply-cluster**: Apply the cluster Terraform workspace
+- **make apply-deploy**: Apply the app-deployment Terraform workspace
 - **make check-todos**: Check all TODOs were addressed
 - **make check-tools**: Check all required tools are installed
 - **make localstack-start**: Start Localstack locally with all the correct configurations
