@@ -1,6 +1,6 @@
 # Multi-Tier Terraform Module For A Simple S3 App On Kuberenetes
 
-![Components Infrastructure](https://github.com/user-attachments/assets/aab7f02c-d1be-4dd6-840e-04bfc3265591)
+![Components Infrastructure](https://github.com/user-attachments/assets/f165cfd3-81a1-4e4e-b09f-850380ef3364)
 
 This repository gives details on how you can implement Terraform modules that will create a test infrastructure cluster for a simple S3 App and deploy there as well. The consists of two layers (two Terraform workspaces):
 
