@@ -1,5 +1,7 @@
 # Terraform Module for Deploying Nginx Ingress and S3 App
 
+![Components Infrastructure](image-1.png)
+
 This Terraform module automates the deployment of an Nginx Ingress controller and a dummy S3 application in a Kubernetes cluster. The module is designed to work with a Kind cluster or any Kubernetes cluster where you have appropriate permissions.
 
 ## Prerequisites
